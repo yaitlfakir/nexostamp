@@ -23,6 +23,7 @@ public partial class MainWindow : Window
     private List<StampDesign> _redoStack = new();
     
     private StampElement? _selectedElement;
+    private FrameworkElement? _capturedElement;
     private Point _dragStartPoint;
     private bool _isDragging;
     private Point _elementStartPosition;
@@ -491,6 +492,7 @@ public partial class MainWindow : Window
             _dragStartPoint = e.GetPosition(DesignCanvas);
             _elementStartPosition = new Point(stampElement.X, stampElement.Y);
             _isDragging = true;
+            _capturedElement = element;
             
             element.CaptureMouse();
             UpdateUI();
@@ -524,19 +526,11 @@ public partial class MainWindow : Window
 
     private void DesignCanvas_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
     {
-        if (_isDragging)
+        if (_isDragging && _capturedElement != null)
         {
             _isDragging = false;
-            
-            // Find the visual element and release mouse
-            foreach (var child in DesignCanvas.Children)
-            {
-                if (child is FrameworkElement fe && fe.Tag == _selectedElement)
-                {
-                    fe.ReleaseMouseCapture();
-                    break;
-                }
-            }
+            _capturedElement.ReleaseMouseCapture();
+            _capturedElement = null;
         }
     }
 

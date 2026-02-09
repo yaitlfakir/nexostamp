@@ -47,15 +47,16 @@ namespace NexoStamp.Services
             using (JsonDocument doc = JsonDocument.ParseValue(ref reader))
             {
                 var root = doc.RootElement;
+                var rawText = root.GetRawText();
                 
                 // Check if it's a TextElement or ShapeElement
                 if (root.TryGetProperty("Text", out _) || root.TryGetProperty("FontFamily", out _))
                 {
-                    return JsonSerializer.Deserialize<TextElement>(root.GetRawText(), options);
+                    return JsonSerializer.Deserialize<TextElement>(rawText, options);
                 }
                 else if (root.TryGetProperty("ShapeType", out _))
                 {
-                    return JsonSerializer.Deserialize<ShapeElement>(root.GetRawText(), options);
+                    return JsonSerializer.Deserialize<ShapeElement>(rawText, options);
                 }
                 
                 return null;
