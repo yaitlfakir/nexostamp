@@ -1,0 +1,67 @@
+{
+  "Name": "Company Stamp Template",
+  "CanvasWidth": 400,
+  "CanvasHeight": 300,
+  "Elements": [
+    {
+      "Id": "1",
+      "X": 50,
+      "Y": 50,
+      "Width": 300,
+      "Height": 60,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "Text": "COMPANY NAME",
+      "FontFamily": "Arial",
+      "FontSize": 36,
+      "FontWeight": {
+        "Weight": 700
+      },
+      "FontStyle": 0,
+      "TextAlignment": 2
+    },
+    {
+      "Id": "2",
+      "X": 50,
+      "Y": 130,
+      "Width": 300,
+      "Height": 40,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "Text": "Department",
+      "FontFamily": "Arial",
+      "FontSize": 24,
+      "FontWeight": {
+        "Weight": 400
+      },
+      "FontStyle": 0,
+      "TextAlignment": 2
+    },
+    {
+      "Id": "3",
+      "X": 40,
+      "Y": 40,
+      "Width": 320,
+      "Height": 220,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "ShapeType": 0,
+      "StrokeThickness": 3
+    },
+    {
+      "Id": "4",
+      "X": 50,
+      "Y": 200,
+      "Width": 300,
+      "Height": 0,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 3,
+      "ShapeType": 2,
+      "StrokeThickness": 2
+    }
+  ]
+}
