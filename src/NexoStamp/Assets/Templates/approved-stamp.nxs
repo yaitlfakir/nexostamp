@@ -1,0 +1,55 @@
+{
+  "Name": "Approved Stamp Template",
+  "CanvasWidth": 300,
+  "CanvasHeight": 300,
+  "Elements": [
+    {
+      "Id": "1",
+      "X": 50,
+      "Y": 100,
+      "Width": 200,
+      "Height": 60,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "Text": "APPROVED",
+      "FontFamily": "Impact",
+      "FontSize": 42,
+      "FontWeight": {
+        "Weight": 700
+      },
+      "FontStyle": 0,
+      "TextAlignment": 2
+    },
+    {
+      "Id": "2",
+      "X": 25,
+      "Y": 25,
+      "Width": 250,
+      "Height": 250,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "ShapeType": 1,
+      "StrokeThickness": 4
+    },
+    {
+      "Id": "3",
+      "X": 50,
+      "Y": 170,
+      "Width": 200,
+      "Height": 30,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "Text": "Date: _______",
+      "FontFamily": "Arial",
+      "FontSize": 16,
+      "FontWeight": {
+        "Weight": 400
+      },
+      "FontStyle": 0,
+      "TextAlignment": 2
+    }
+  ]
+}
