@@ -49,8 +49,12 @@ namespace NexoStamp.Services
                 var root = doc.RootElement;
                 var rawText = root.GetRawText();
                 
-                // Check if it's a TextElement or ShapeElement
-                if (root.TryGetProperty("Text", out _) || root.TryGetProperty("FontFamily", out _))
+                // Check if it's a CurvedTextElement, TextElement or ShapeElement
+                if (root.TryGetProperty("Radius", out _))
+                {
+                    return JsonSerializer.Deserialize<CurvedTextElement>(rawText, options);
+                }
+                else if (root.TryGetProperty("Text", out _) || root.TryGetProperty("FontFamily", out _))
                 {
                     return JsonSerializer.Deserialize<TextElement>(rawText, options);
                 }

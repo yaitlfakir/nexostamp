@@ -1,0 +1,145 @@
+{
+  "Name": "Rectangular 100x60mm Business Stamp",
+  "CanvasWidth": 425,
+  "CanvasHeight": 255,
+  "Elements": [
+    {
+      "Id": "outer-rect",
+      "X": 5,
+      "Y": 5,
+      "Width": 415,
+      "Height": 245,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "ShapeType": 0,
+      "StrokeThickness": 5
+    },
+    {
+      "Id": "inner-rect-1",
+      "X": 18,
+      "Y": 18,
+      "Width": 389,
+      "Height": 219,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "ShapeType": 0,
+      "StrokeThickness": 2
+    },
+    {
+      "Id": "inner-rect-2",
+      "X": 30,
+      "Y": 30,
+      "Width": 365,
+      "Height": 195,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "ShapeType": 0,
+      "StrokeThickness": 1
+    },
+    {
+      "Id": "company-name",
+      "X": 35,
+      "Y": 40,
+      "Width": 355,
+      "Height": 50,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 3,
+      "Text": "ABC COMPANY LLC",
+      "FontFamily": "Arial",
+      "FontSize": 32,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "TextAlignment": 2
+    },
+    {
+      "Id": "tagline",
+      "X": 35,
+      "Y": 95,
+      "Width": 355,
+      "Height": 35,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 4,
+      "Text": "Excellence in Service",
+      "FontFamily": "Arial",
+      "FontSize": 20,
+      "FontWeight": {
+        "Weight": 400
+      },
+      "FontStyle": 1,
+      "TextAlignment": 2
+    },
+    {
+      "Id": "divider-1",
+      "X": 35,
+      "Y": 140,
+      "Width": 355,
+      "Height": 0,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 5,
+      "ShapeType": 2,
+      "StrokeThickness": 2
+    },
+    {
+      "Id": "address",
+      "X": 35,
+      "Y": 155,
+      "Width": 355,
+      "Height": 30,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 6,
+      "Text": "123 Business Street, City, Country",
+      "FontFamily": "Arial",
+      "FontSize": 14,
+      "FontWeight": {
+        "Weight": 400
+      },
+      
+      "TextAlignment": 2
+    },
+    {
+      "Id": "contact",
+      "X": 35,
+      "Y": 185,
+      "Width": 355,
+      "Height": 30,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 7,
+      "Text": "Tel: +1 234 567 8900 | Email: info@abccompany.com",
+      "FontFamily": "Arial",
+      "FontSize": 12,
+      "FontWeight": {
+        "Weight": 400
+      },
+      
+      "TextAlignment": 2
+    },
+    {
+      "Id": "website",
+      "X": 35,
+      "Y": 210,
+      "Width": 355,
+      "Height": 25,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 8,
+      "Text": "www.abccompany.com",
+      "FontFamily": "Arial",
+      "FontSize": 12,
+      "FontWeight": {
+        "Weight": 400
+      },
+      "FontStyle": 1,
+      "TextAlignment": 2
+    }
+  ]
+}

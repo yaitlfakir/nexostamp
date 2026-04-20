@@ -1,0 +1,91 @@
+{
+  "Name": "Round 35mm Stamp",
+  "CanvasWidth": 149,
+  "CanvasHeight": 149,
+  "Elements": [
+    {
+      "Id": "outer-circle",
+      "X": 9,
+      "Y": 9,
+      "Width": 132,
+      "Height": 132,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "ShapeType": 1,
+      "StrokeThickness": 3
+    },
+    {
+      "Id": "inner-circle",
+      "X": 18,
+      "Y": 18,
+      "Width": 113,
+      "Height": 113,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "ShapeType": 1,
+      "StrokeThickness": 2
+    },
+    {
+      "Id": "curved-top",
+      "X": 0,
+      "Y": 0,
+      "Width": 132,
+      "Height": 132,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "Text": "COMPANY NAME",
+      "FontFamily": "Arial",
+      "FontSize": 11,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "Radius": 60,
+      "StartAngle": 205,
+      "EndAngle": 335,
+      "IsInverted": false
+    },
+    {
+      "Id": "curved-bottom",
+      "X": 0,
+      "Y": 0,
+      "Width": 132,
+      "Height": 132,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 3,
+      "Text": "EST. 2024",
+      "FontFamily": "Arial",
+      "FontSize": 9,
+      "FontWeight": {
+        "Weight": 400
+      },
+      
+      "Radius": 60,
+      "StartAngle": 25,
+      "EndAngle": 155,
+      "IsInverted": true
+    },
+    {
+      "Id": "center-text",
+      "X": 35,
+      "Y": 58,
+      "Width": 80,
+      "Height": 35,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 4,
+      "Text": "STAMP",
+      "FontFamily": "Arial",
+      "FontSize": 22,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "TextAlignment": 2
+    }
+  ]
+}

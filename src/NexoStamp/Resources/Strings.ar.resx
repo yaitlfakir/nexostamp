@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Window Title -->
+  <data name="AppTitle" xml:space="preserve">
+    <value>نيوكو ستامب - تطبيق تصميم الطوابع</value>
+  </data>
+  <!-- Menu - File -->
+  <data name="Menu_File" xml:space="preserve">
+    <value>مل_ف</value>
+  </data>
+  <data name="Menu_New" xml:space="preserve">
+    <value>_جديد</value>
+  </data>
+  <data name="Menu_Open" xml:space="preserve">
+    <value>_فتح...</value>
+  </data>
+  <data name="Menu_Save" xml:space="preserve">
+    <value>_حفظ</value>
+  </data>
+  <data name="Menu_SaveAs" xml:space="preserve">
+    <value>حفظ _باسم...</value>
+  </data>
+  <data name="Menu_PrintPreview" xml:space="preserve">
+    <value>_معاينة الطباعة...</value>
+  </data>
+  <data name="Menu_Print" xml:space="preserve">
+    <value>طباعة...</value>
+  </data>
+  <data name="Menu_Exit" xml:space="preserve">
+    <value>خ_روج</value>
+  </data>
+  <!-- Menu - Edit -->
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>ت_عديل</value>
+  </data>
+  <data name="Menu_Undo" xml:space="preserve">
+    <value>إل_غاء</value>
+  </data>
+  <data name="Menu_Redo" xml:space="preserve">
+    <value>إع_ادة</value>
+  </data>
+  <data name="Menu_Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Menu_Duplicate" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <!-- Menu - Help -->
+  <data name="Menu_Help" xml:space="preserve">
+    <value>مساعدة</value>
+  </data>
+  <data name="Menu_About" xml:space="preserve">
+    <value>_حول</value>
+  </data>
+  <!-- Menu - Language -->
+  <data name="Menu_Language" xml:space="preserve">
+    <value>_لغة</value>
+  </data>
+  <data name="Menu_English" xml:space="preserve">
+    <value>English (الإنجليزية)</value>
+  </data>
+  <data name="Menu_Arabic" xml:space="preserve">
+    <value>العربية</value>
+  </data>
+  <!-- Toolbar Tooltips -->
+  <data name="Toolbar_AddText" xml:space="preserve">
+    <value>إضافة نص</value>
+  </data>
+  <data name="Toolbar_AddRectangle" xml:space="preserve">
+    <value>إضافة مستطيل</value>
+  </data>
+  <data name="Toolbar_AddCircle" xml:space="preserve">
+    <value>إضافة دائرة</value>
+  </data>
+  <data name="Toolbar_CircularStamp" xml:space="preserve">
+    <value>قالب طابع دائري</value>
+  </data>
+  <data name="Toolbar_CurvedText" xml:space="preserve">
+    <value>إضافة نص منحني</value>
+  </data>
+  <data name="Toolbar_AddLine" xml:space="preserve">
+    <value>إضافة خط</value>
+  </data>
+  <!-- Toolbar Labels -->
+  <data name="Toolbar_Zoom" xml:space="preserve">
+    <value>تكبير:</value>
+  </data>
+  <!-- Properties Panel -->
+  <data name="Properties_Title" xml:space="preserve">
+    <value>الخصائص</value>
+  </data>
+  <data name="Properties_NoSelection" xml:space="preserve">
+    <value>لم يتم تحديد أي عنصر</value>
+  </data>
+  <data name="Properties_TextProperties" xml:space="preserve">
+    <value>خصائص النص</value>
+  </data>
+  <data name="Properties_Text" xml:space="preserve">
+    <value>النص:</value>
+  </data>
+  <data name="Properties_FontFamily" xml:space="preserve">
+    <value>نوع الخط:</value>
+  </data>
+  <data name="Properties_FontSize" xml:space="preserve">
+    <value>حجم الخط:</value>
+  </data>
+  <data name="Properties_Bold" xml:space="preserve">
+    <value>غامق</value>
+  </data>
+  <data name="Properties_Italic" xml:space="preserve">
+    <value>مائل</value>
+  </data>
+  <data name="Properties_CurvedText" xml:space="preserve">
+    <value>خصائص النص المنحني</value>
+  </data>
+  <data name="Properties_Radius" xml:space="preserve">
+    <value>نصف القطر:</value>
+  </data>
+  <data name="Properties_StartAngle" xml:space="preserve">
+    <value>زاوية البداية:</value>
+  </data>
+  <data name="Properties_EndAngle" xml:space="preserve">
+    <value>زاوية النهاية:</value>
+  </data>
+  <data name="Properties_InvertDirection" xml:space="preserve">
+    <value>عكس الاتجاه</value>
+  </data>
+  <data name="Properties_ShapeProperties" xml:space="preserve">
+    <value>خصائص الشكل</value>
+  </data>
+  <data name="Properties_StrokeThickness" xml:space="preserve">
+    <value>سمك الخط:</value>
+  </data>
+  <data name="Properties_Common" xml:space="preserve">
+    <value>الخصائص المشتركة</value>
+  </data>
+  <data name="Properties_Position" xml:space="preserve">
+    <value>الموضع:</value>
+  </data>
+  <data name="Properties_Size" xml:space="preserve">
+    <value>الحجم:</value>
+  </data>
+  <data name="Properties_Rotation" xml:space="preserve">
+    <value>الدوران:</value>
+  </data>
+  <!-- Status Bar -->
+  <data name="Status_Ready" xml:space="preserve">
+    <value>جاهز</value>
+  </data>
+  <!-- Dialogs -->
+  <data name="Dialog_NewDesign" xml:space="preserve">
+    <value>إنشاء تصميم جديد؟ سيتم فقدان التغييرات غير المحفوظة.</value>
+  </data>
+  <data name="Dialog_NewTitle" xml:space="preserve">
+    <value>تصميم جديد</value>
+  </data>
+  <data name="Dialog_OpenTitle" xml:space="preserve">
+    <value>فتح تصميم طابع</value>
+  </data>
+  <data name="Dialog_SaveTitle" xml:space="preserve">
+    <value>حفظ تصميم طابع</value>
+  </data>
+  <data name="Dialog_LoadError" xml:space="preserve">
+    <value>فشل في تحميل ملف التصميم.</value>
+  </data>
+  <data name="Dialog_Error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="Dialog_About" xml:space="preserve">
+    <value>نيوكو ستامب الإصدار 1.0
+
+تطبيق تصميم وطباعة الطوابع.
+
+المميزات:
+- تصميم طوابع مخصصة
+- نظام ألوان أبيض على أسود
+- معاينة الطباعة والطباعة
+- حفظ وتحميل التصاميم
+- دعم اللغات المتعددة (الإنجليزية، العربية)
+
+</value>
+  </data>
+  <data name="Dialog_AboutTitle" xml:space="preserve">
+    <value>حول نيوكو ستامب</value>
+  </data>
+</root>

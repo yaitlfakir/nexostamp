@@ -1,0 +1,97 @@
+{
+  "Name": "Rectangular 60x40mm Stamp",
+  "CanvasWidth": 255,
+  "CanvasHeight": 170,
+  "Elements": [
+    {
+      "Id": "outer-rect",
+      "X": 5,
+      "Y": 5,
+      "Width": 245,
+      "Height": 160,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "ShapeType": 0,
+      "StrokeThickness": 4
+    },
+    {
+      "Id": "inner-rect",
+      "X": 15,
+      "Y": 15,
+      "Width": 225,
+      "Height": 140,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "ShapeType": 0,
+      "StrokeThickness": 2
+    },
+    {
+      "Id": "company-name",
+      "X": 20,
+      "Y": 25,
+      "Width": 215,
+      "Height": 40,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "Text": "COMPANY NAME",
+      "FontFamily": "Arial",
+      "FontSize": 24,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "TextAlignment": 2
+    },
+    {
+      "Id": "tagline",
+      "X": 20,
+      "Y": 70,
+      "Width": 215,
+      "Height": 30,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 3,
+      "Text": "Department or Tagline",
+      "FontFamily": "Arial",
+      "FontSize": 16,
+      "FontWeight": {
+        "Weight": 400
+      },
+      "FontStyle": 1,
+      "TextAlignment": 2
+    },
+    {
+      "Id": "divider",
+      "X": 20,
+      "Y": 110,
+      "Width": 215,
+      "Height": 0,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 4,
+      "ShapeType": 2,
+      "StrokeThickness": 2
+    },
+    {
+      "Id": "contact",
+      "X": 20,
+      "Y": 120,
+      "Width": 215,
+      "Height": 30,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 5,
+      "Text": "Contact: info@company.com",
+      "FontFamily": "Arial",
+      "FontSize": 12,
+      "FontWeight": {
+        "Weight": 400
+      },
+      
+      "TextAlignment": 2
+    }
+  ]
+}

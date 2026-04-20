@@ -1,0 +1,91 @@
+{
+  "Name": "Round Approved Stamp",
+  "CanvasWidth": 350,
+  "CanvasHeight": 350,
+  "Elements": [
+    {
+      "Id": "outer-circle",
+      "X": 25,
+      "Y": 25,
+      "Width": 300,
+      "Height": 300,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "ShapeType": 1,
+      "StrokeThickness": 5
+    },
+    {
+      "Id": "inner-circle",
+      "X": 50,
+      "Y": 50,
+      "Width": 250,
+      "Height": 250,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "ShapeType": 1,
+      "StrokeThickness": 2
+    },
+    {
+      "Id": "curved-top",
+      "X": 0,
+      "Y": 0,
+      "Width": 300,
+      "Height": 300,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "Text": "APPROVED & VERIFIED",
+      "FontFamily": "Arial",
+      "FontSize": 16,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "Radius": 135,
+      "StartAngle": 200,
+      "EndAngle": 340,
+      "IsInverted": false
+    },
+    {
+      "Id": "curved-bottom",
+      "X": 0,
+      "Y": 0,
+      "Width": 300,
+      "Height": 300,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 3,
+      "Text": "DATE: ___________",
+      "FontFamily": "Arial",
+      "FontSize": 14,
+      "FontWeight": {
+        "Weight": 400
+      },
+      
+      "Radius": 135,
+      "StartAngle": 20,
+      "EndAngle": 160,
+      "IsInverted": true
+    },
+    {
+      "Id": "center-approved",
+      "X": 85,
+      "Y": 140,
+      "Width": 180,
+      "Height": 70,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 4,
+      "Text": "APPROVED",
+      "FontFamily": "Impact",
+      "FontSize": 36,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "TextAlignment": 2
+    }
+  ]
+}

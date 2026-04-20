@@ -1,0 +1,97 @@
+{
+  "Name": "Rectangular Company Stamp",
+  "CanvasWidth": 450,
+  "CanvasHeight": 250,
+  "Elements": [
+    {
+      "Id": "outer-rectangle",
+      "X": 25,
+      "Y": 25,
+      "Width": 400,
+      "Height": 200,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "ShapeType": 0,
+      "StrokeThickness": 4
+    },
+    {
+      "Id": "inner-rectangle",
+      "X": 40,
+      "Y": 40,
+      "Width": 370,
+      "Height": 170,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "ShapeType": 0,
+      "StrokeThickness": 2
+    },
+    {
+      "Id": "company-name",
+      "X": 50,
+      "Y": 50,
+      "Width": 350,
+      "Height": 50,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "Text": "ABC COMPANY LLC",
+      "FontFamily": "Arial",
+      "FontSize": 32,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "TextAlignment": 2
+    },
+    {
+      "Id": "tagline",
+      "X": 50,
+      "Y": 100,
+      "Width": 350,
+      "Height": 35,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 3,
+      "Text": "Excellence in Service",
+      "FontFamily": "Arial",
+      "FontSize": 20,
+      "FontWeight": {
+        "Weight": 400
+      },
+      "FontStyle": 1,
+      "TextAlignment": 2
+    },
+    {
+      "Id": "divider-line",
+      "X": 50,
+      "Y": 150,
+      "Width": 350,
+      "Height": 0,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 4,
+      "ShapeType": 2,
+      "StrokeThickness": 2
+    },
+    {
+      "Id": "contact-info",
+      "X": 50,
+      "Y": 165,
+      "Width": 350,
+      "Height": 35,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 5,
+      "Text": "Tel: +1 234 567 8900 | info@abccompany.com",
+      "FontFamily": "Arial",
+      "FontSize": 12,
+      "FontWeight": {
+        "Weight": 400
+      },
+      
+      "TextAlignment": 2
+    }
+  ]
+}

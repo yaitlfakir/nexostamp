@@ -1,0 +1,70 @@
+{
+  "Name": "Round 30mm Stamp",
+  "CanvasWidth": 128,
+  "CanvasHeight": 128,
+  "Elements": [
+    {
+      "Id": "outer-circle",
+      "X": 7,
+      "Y": 7,
+      "Width": 114,
+      "Height": 114,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "ShapeType": 1,
+      "StrokeThickness": 3
+    },
+    {
+      "Id": "inner-circle",
+      "X": 16,
+      "Y": 16,
+      "Width": 96,
+      "Height": 96,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "ShapeType": 1,
+      "StrokeThickness": 1
+    },
+    {
+      "Id": "curved-top",
+      "X": 0,
+      "Y": 0,
+      "Width": 114,
+      "Height": 114,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "Text": "COMPANY",
+      "FontFamily": "Arial",
+      "FontSize": 10,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "Radius": 52,
+      "StartAngle": 210,
+      "EndAngle": 330,
+      "IsInverted": false
+    },
+    {
+      "Id": "center-text",
+      "X": 29,
+      "Y": 50,
+      "Width": 70,
+      "Height": 30,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 3,
+      "Text": "STAMP",
+      "FontFamily": "Arial",
+      "FontSize": 18,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "TextAlignment": 2
+    }
+  ]
+}

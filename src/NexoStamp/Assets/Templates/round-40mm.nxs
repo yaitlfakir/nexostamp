@@ -1,0 +1,91 @@
+{
+  "Name": "Round 40mm Stamp",
+  "CanvasWidth": 170,
+  "CanvasHeight": 170,
+  "Elements": [
+    {
+      "Id": "outer-circle",
+      "X": 10,
+      "Y": 10,
+      "Width": 151,
+      "Height": 151,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "ShapeType": 1,
+      "StrokeThickness": 4
+    },
+    {
+      "Id": "inner-circle",
+      "X": 20,
+      "Y": 20,
+      "Width": 131,
+      "Height": 131,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "ShapeType": 1,
+      "StrokeThickness": 2
+    },
+    {
+      "Id": "curved-top",
+      "X": 0,
+      "Y": 0,
+      "Width": 151,
+      "Height": 151,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "Text": "COMPANY NAME",
+      "FontFamily": "Arial",
+      "FontSize": 13,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "Radius": 69,
+      "StartAngle": 205,
+      "EndAngle": 335,
+      "IsInverted": false
+    },
+    {
+      "Id": "curved-bottom",
+      "X": 0,
+      "Y": 0,
+      "Width": 151,
+      "Height": 151,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 3,
+      "Text": "ESTABLISHED",
+      "FontFamily": "Arial",
+      "FontSize": 10,
+      "FontWeight": {
+        "Weight": 400
+      },
+      
+      "Radius": 69,
+      "StartAngle": 25,
+      "EndAngle": 155,
+      "IsInverted": true
+    },
+    {
+      "Id": "center-text",
+      "X": 40,
+      "Y": 65,
+      "Width": 90,
+      "Height": 40,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 4,
+      "Text": "STAMP",
+      "FontFamily": "Impact",
+      "FontSize": 26,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "TextAlignment": 2
+    }
+  ]
+}

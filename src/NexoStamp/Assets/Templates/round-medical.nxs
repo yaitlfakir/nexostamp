@@ -1,0 +1,91 @@
+{
+  "Name": "Round Medical Stamp",
+  "CanvasWidth": 350,
+  "CanvasHeight": 350,
+  "Elements": [
+    {
+      "Id": "outer-circle",
+      "X": 25,
+      "Y": 25,
+      "Width": 300,
+      "Height": 300,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "ShapeType": 1,
+      "StrokeThickness": 5
+    },
+    {
+      "Id": "inner-circle",
+      "X": 50,
+      "Y": 50,
+      "Width": 250,
+      "Height": 250,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "ShapeType": 1,
+      "StrokeThickness": 2
+    },
+    {
+      "Id": "curved-top",
+      "X": 0,
+      "Y": 0,
+      "Width": 300,
+      "Height": 300,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "Text": "PHARMACY & MEDICAL",
+      "FontFamily": "Arial",
+      "FontSize": 16,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "Radius": 135,
+      "StartAngle": 205,
+      "EndAngle": 335,
+      "IsInverted": false
+    },
+    {
+      "Id": "curved-bottom",
+      "X": 0,
+      "Y": 0,
+      "Width": 300,
+      "Height": 300,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 3,
+      "Text": "LICENSED & REGISTERED",
+      "FontFamily": "Arial",
+      "FontSize": 14,
+      "FontWeight": {
+        "Weight": 400
+      },
+      
+      "Radius": 135,
+      "StartAngle": 25,
+      "EndAngle": 155,
+      "IsInverted": true
+    },
+    {
+      "Id": "center-prescription",
+      "X": 95,
+      "Y": 140,
+      "Width": 160,
+      "Height": 70,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 4,
+      "Text": "RX",
+      "FontFamily": "Impact",
+      "FontSize": 48,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "TextAlignment": 2
+    }
+  ]
+}

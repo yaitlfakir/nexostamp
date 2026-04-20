@@ -1,0 +1,79 @@
+{
+  "Name": "Rectangular 40x25mm Stamp",
+  "CanvasWidth": 170,
+  "CanvasHeight": 106,
+  "Elements": [
+    {
+      "Id": "outer-rect",
+      "X": 5,
+      "Y": 5,
+      "Width": 160,
+      "Height": 96,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "ShapeType": 0,
+      "StrokeThickness": 3
+    },
+    {
+      "Id": "inner-rect",
+      "X": 12,
+      "Y": 12,
+      "Width": 146,
+      "Height": 82,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "ShapeType": 0,
+      "StrokeThickness": 1
+    },
+    {
+      "Id": "company-name",
+      "X": 15,
+      "Y": 20,
+      "Width": 140,
+      "Height": 30,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "Text": "COMPANY",
+      "FontFamily": "Arial",
+      "FontSize": 18,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "TextAlignment": 2
+    },
+    {
+      "Id": "divider",
+      "X": 15,
+      "Y": 55,
+      "Width": 140,
+      "Height": 0,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 3,
+      "ShapeType": 2,
+      "StrokeThickness": 1
+    },
+    {
+      "Id": "tagline",
+      "X": 15,
+      "Y": 65,
+      "Width": 140,
+      "Height": 25,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 4,
+      "Text": "TEXT HERE",
+      "FontFamily": "Arial",
+      "FontSize": 14,
+      "FontWeight": {
+        "Weight": 400
+      },
+      
+      "TextAlignment": 2
+    }
+  ]
+}

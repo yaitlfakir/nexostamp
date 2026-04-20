@@ -1,0 +1,49 @@
+{
+  "Name": "Rectangular 25mm Stamp",
+  "CanvasWidth": 106,
+  "CanvasHeight": 106,
+  "Elements": [
+    {
+      "Id": "outer-rect",
+      "X": 6,
+      "Y": 6,
+      "Width": 94,
+      "Height": 94,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 0,
+      "ShapeType": 0,
+      "StrokeThickness": 2
+    },
+    {
+      "Id": "inner-rect",
+      "X": 14,
+      "Y": 14,
+      "Width": 78,
+      "Height": 78,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 1,
+      "ShapeType": 0,
+      "StrokeThickness": 1
+    },
+    {
+      "Id": "center-text",
+      "X": 18,
+      "Y": 40,
+      "Width": 70,
+      "Height": 30,
+      "Rotation": 0,
+      "IsSelected": false,
+      "ZIndex": 2,
+      "Text": "STAMP",
+      "FontFamily": "Arial",
+      "FontSize": 18,
+      "FontWeight": {
+        "Weight": 700
+      },
+      
+      "TextAlignment": 2
+    }
+  ]
+}

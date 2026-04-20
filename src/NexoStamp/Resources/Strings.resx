@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Window Title -->
+  <data name="AppTitle" xml:space="preserve">
+    <value>NexoStamp - Stamp Design Application</value>
+  </data>
+  <!-- Menu - File -->
+  <data name="Menu_File" xml:space="preserve">
+    <value>_File</value>
+  </data>
+  <data name="Menu_New" xml:space="preserve">
+    <value>_New</value>
+  </data>
+  <data name="Menu_Open" xml:space="preserve">
+    <value>_Open...</value>
+  </data>
+  <data name="Menu_Save" xml:space="preserve">
+    <value>_Save</value>
+  </data>
+  <data name="Menu_SaveAs" xml:space="preserve">
+    <value>Save _As...</value>
+  </data>
+  <data name="Menu_PrintPreview" xml:space="preserve">
+    <value>_Print Preview...</value>
+  </data>
+  <data name="Menu_Print" xml:space="preserve">
+    <value>Print...</value>
+  </data>
+  <data name="Menu_Exit" xml:space="preserve">
+    <value>E_xit</value>
+  </data>
+  <!-- Menu - Edit -->
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>_Edit</value>
+  </data>
+  <data name="Menu_Undo" xml:space="preserve">
+    <value>_Undo</value>
+  </data>
+  <data name="Menu_Redo" xml:space="preserve">
+    <value>_Redo</value>
+  </data>
+  <data name="Menu_Delete" xml:space="preserve">
+    <value>_Delete</value>
+  </data>
+  <data name="Menu_Duplicate" xml:space="preserve">
+    <value>_Duplicate</value>
+  </data>
+  <!-- Menu - Help -->
+  <data name="Menu_Help" xml:space="preserve">
+    <value>_Help</value>
+  </data>
+  <data name="Menu_About" xml:space="preserve">
+    <value>_About</value>
+  </data>
+  <!-- Menu - Language -->
+  <data name="Menu_Language" xml:space="preserve">
+    <value>_Language</value>
+  </data>
+  <data name="Menu_English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Menu_Arabic" xml:space="preserve">
+    <value>العربية (Arabic)</value>
+  </data>
+  <!-- Toolbar Tooltips -->
+  <data name="Toolbar_AddText" xml:space="preserve">
+    <value>Add Text</value>
+  </data>
+  <data name="Toolbar_AddRectangle" xml:space="preserve">
+    <value>Add Rectangle</value>
+  </data>
+  <data name="Toolbar_AddCircle" xml:space="preserve">
+    <value>Add Circle</value>
+  </data>
+  <data name="Toolbar_CircularStamp" xml:space="preserve">
+    <value>Circular Stamp Template</value>
+  </data>
+  <data name="Toolbar_CurvedText" xml:space="preserve">
+    <value>Add Curved Text</value>
+  </data>
+  <data name="Toolbar_AddLine" xml:space="preserve">
+    <value>Add Line</value>
+  </data>
+  <!-- Toolbar Labels -->
+  <data name="Toolbar_Zoom" xml:space="preserve">
+    <value>Zoom:</value>
+  </data>
+  <!-- Properties Panel -->
+  <data name="Properties_Title" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="Properties_NoSelection" xml:space="preserve">
+    <value>No element selected</value>
+  </data>
+  <data name="Properties_TextProperties" xml:space="preserve">
+    <value>Text Properties</value>
+  </data>
+  <data name="Properties_Text" xml:space="preserve">
+    <value>Text:</value>
+  </data>
+  <data name="Properties_FontFamily" xml:space="preserve">
+    <value>Font Family:</value>
+  </data>
+  <data name="Properties_FontSize" xml:space="preserve">
+    <value>Font Size:</value>
+  </data>
+  <data name="Properties_Bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="Properties_Italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="Properties_CurvedText" xml:space="preserve">
+    <value>Curved Text Properties</value>
+  </data>
+  <data name="Properties_Radius" xml:space="preserve">
+    <value>Radius:</value>
+  </data>
+  <data name="Properties_StartAngle" xml:space="preserve">
+    <value>Start Angle:</value>
+  </data>
+  <data name="Properties_EndAngle" xml:space="preserve">
+    <value>End Angle:</value>
+  </data>
+  <data name="Properties_InvertDirection" xml:space="preserve">
+    <value>Invert Direction</value>
+  </data>
+  <data name="Properties_ShapeProperties" xml:space="preserve">
+    <value>Shape Properties</value>
+  </data>
+  <data name="Properties_StrokeThickness" xml:space="preserve">
+    <value>Stroke Thickness:</value>
+  </data>
+  <data name="Properties_Common" xml:space="preserve">
+    <value>Common Properties</value>
+  </data>
+  <data name="Properties_Position" xml:space="preserve">
+    <value>Position:</value>
+  </data>
+  <data name="Properties_Size" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="Properties_Rotation" xml:space="preserve">
+    <value>Rotation:</value>
+  </data>
+  <!-- Status Bar -->
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <!-- Dialogs -->
+  <data name="Dialog_NewDesign" xml:space="preserve">
+    <value>Create a new design? Unsaved changes will be lost.</value>
+  </data>
+  <data name="Dialog_NewTitle" xml:space="preserve">
+    <value>New Design</value>
+  </data>
+  <data name="Dialog_OpenTitle" xml:space="preserve">
+    <value>Open Stamp Design</value>
+  </data>
+  <data name="Dialog_SaveTitle" xml:space="preserve">
+    <value>Save Stamp Design</value>
+  </data>
+  <data name="Dialog_LoadError" xml:space="preserve">
+    <value>Failed to load design file.</value>
+  </data>
+  <data name="Dialog_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Dialog_About" xml:space="preserve">
+    <value>NexoStamp v1.0
+
+A stamp design and printing application.
+
+Features:
+- Design custom stamps
+- White on black color scheme
+- Print preview and printing
+- Save and load designs
+- Multi-language support (English, Arabic)</value>
+  </data>
+  <data name="Dialog_AboutTitle" xml:space="preserve">
+    <value>About NexoStamp</value>
+  </data>
+</root>
